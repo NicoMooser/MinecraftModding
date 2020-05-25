@@ -1,0 +1,5 @@
+//This file should be named blockName.json
+//Location: src/main/resources/assets.modid/models/item
+{
+    "parent": "dinomodv0:block/example_block"
+}
