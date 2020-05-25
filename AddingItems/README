@@ -1,0 +1,14 @@
+Instructions to add items to the game
+
+Step 1 (Add Item to Bus)
+  Under src/main/java/ -> "com.package.modid" -> init
+  Create new class "ItemInit.java" (See ./ItemInit.java)
+  
+Step 2 (Add Item to models)
+  Under src/main/resources -> "assests.modid" -> models -> item
+  Create "item_name.json" (See ./example_item.json)
+  
+Step 3 (Add texture)
+  Under src/main/resources -> "assests.modid" -> textures -> items
+  Add "item_name.png" (See ./example_item.png
+  (Texture must be ~16x16, max 32x32)
