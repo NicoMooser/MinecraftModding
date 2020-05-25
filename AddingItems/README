@@ -12,3 +12,8 @@ Step 3 (Add texture)
   Under src/main/resources -> "assests.modid" -> textures -> items
   Add "item_name.png" (See ./example_item.png
   (Texture must be ~16x16, max 32x32)
+
+Step 4 (Edit lang/en_us.json)
+  Add
+	  "item.modid.itemName" : "IN GAME NAME" 
+  See ./en_us.json
