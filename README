@@ -1,16 +1,15 @@
 Blank Eclipse Project
 
 TODO:
-  Rename dot_graddle to .graddle
-  Rename dot_settings to .settings
   Import to eclipse
-  Rename your project
+  Rename your project and mod
+  Edit ModName.java
   Edit mods.toml
   
 IMPORTING TO ECLIPSE:
   Import -> General -> Existing Projects into Workspace
   
-RENAMING PROJECT
+RENAMING PROJECT & MOD
   Under src/main/java, right click "com.yourname.modid" and choose refactor
   Or left click and alt + shift + r
   Replace yourname with your name or with reverse website and modid (e.g. com.github.nicomooser.dinorun)
@@ -25,7 +24,15 @@ RENAMING PROJECT
     items
   See (./example_screenshot.png)
   
-Editing mods.toml:
+  Under src/main/java -> com.yourname.modid, right click "ModName.java" and choose refactor
+  Or left click and alt + shift + r
+  Rename using CamelCase (e.g. DinoMod)
+
+EDITING ModName.java
+  Open ModName.java
+  Find all "//Replace:" comments
+
+EDITING mods.toml:
   Change the modid in:
     modId="modid"
   Hardcode version in:
