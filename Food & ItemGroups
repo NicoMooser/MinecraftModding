@@ -1,3 +1,4 @@
+*Note: In order for your new tab to appear, you need to add an item to it, i.e .group(ModItemGroup.instance)
 To create a new ItemGroup, create a class in main mod class (i.e. src/main/java/com.yourname.modid/ModName.java)
 
 ItemGroup Class code:
