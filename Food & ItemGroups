@@ -1,0 +1,29 @@
+To create a new ItemGroup, create a class in main mod class (i.e. src/main/java/com.yourname.modid/ModName.java)
+
+ItemGroup Class code:
+
+    public static class ModItemGroup extends ItemGroup{
+      public static final ModItemGroup instance = new ModItemGroup(ItemGroup.GROUPS.length, "Tab Label");   //Replace "Tab Label" with your label
+    	
+      private ModItemGroup(int index, String label) {
+    		super(index, label);
+    	}
+    	
+    	@Override
+    	public ItemStack createIcon() {
+    		//return new ItemStack(ItemInit.itemName);		//Icon is an Item
+    		return new ItemStack(BlockInit.blockName);		//Icon is a Block
+    	}
+    }
+
+Some Food Functions (When creating an item)
+  event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(6).saturation(1.2f)).setRegistryName("example_food"));
+  
+  .hunger(int x) will give x/2 drumsticks of food
+  .saturation(double x) is related to the hidden food duration? Need to research this more
+  .setAlwaysEdible() edible when food bar full or in creative mode
+  .meat() wolves can eat it
+  .fastToEat() eating speed is fast
+  
+  .effect(new EffectInstance(Effect.ABSORBPTION, 6000, 5), 0.5f).build()   //ABSORPTION and duration can be changed, duration in ticks (20 ticks/s)
+    EffectInstance(Effect.EFFECT_NAME, DURATION, AMPLIFIER), PROBABILITY //Probability from 0-1 of getting effect
