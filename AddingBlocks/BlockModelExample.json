@@ -1,6 +1,8 @@
+//This file should be named blockName.json
+//Location: src/main/resources/assets.modid/models/block
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "dinomodv0:blocks/example_block"
+        "all": "modid:blocks/blockName"         //Replace "modid" and "blockname"
     }
 }
