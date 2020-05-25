@@ -1,9 +1,13 @@
 Blank Eclipse Project
 
 TODO:
-  Edit mods.toml
   Rename dot_graddle to .graddle
   Rename dot_settings to .settings
+  Import to eclipse
+  Edit mods.toml
+  
+IMPORTING TO ECLIPSE:
+  Import -> General -> Existing Projects into Workspace
   
 Editing mods.toml:
   Change the modid in:
@@ -22,6 +26,3 @@ Editing mods.toml:
   Optional:
   Set logo in:
     logoFile="examplemod.png" #optional
-    
- IMPORTING TO ECLIPSE:
-  Import -> General -> Existing Projects into Workspace
