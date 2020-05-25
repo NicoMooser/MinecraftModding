@@ -1,0 +1,25 @@
+Blank Eclipse Project
+
+TODO:
+  Edit mods.toml
+  
+Editing mods.toml:
+  Change the modid in:
+    modId="modid"
+  Hardcode version in:
+    version="${file.jarVersion}"
+  Set Mod Name in:
+      displayName="Mod Name"
+  Set Home Page in:
+    displayURL="http://example.com/"
+  Change credits in:
+    credits="Thanks for this example mod goes to Java"
+  Change authors in:
+    authors="Love, Cheese and small house plants"
+  
+  Optional:
+  Set logo in:
+    logoFile="examplemod.png" #optional
+    
+ IMPORTING TO ECLIPSE:
+  Import -> General -> Existing Projects into Workspace
