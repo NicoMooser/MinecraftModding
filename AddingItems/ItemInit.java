@@ -11,10 +11,10 @@ import net.minecraftforge.registries.ObjectHolder;
 @Mod.EventBusSubscriber(modid=MinecraftModV0.MOD_ID, bus = Bus.MOD)
 @ObjectHolder(PROJECTNAME.MOD_ID)
 public class ItemInit{
-	public static final Item example_item = null;
+	public static final Item example_item = null;		//Replace example_item with itemName
 	
 	@SubscribeEvent
 	public static void registerItem(final RegistryEvent.Register<Item> event) {
-		event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.MISC)).setRegistryName("example_item"));
+		event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.MISC)).setRegistryName("example_item"));	//Replace "example_item" with "itemName"
 	}
 }
