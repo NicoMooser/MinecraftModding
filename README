@@ -2,6 +2,8 @@ Blank Eclipse Project
 
 TODO:
   Edit mods.toml
+  Rename dot_graddle to .graddle
+  Rename dot_settings to .settings
   
 Editing mods.toml:
   Change the modid in:
