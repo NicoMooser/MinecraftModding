@@ -1,5 +1,5 @@
 package com.YOURPACKAGENAME.modid.init;
-import com.YOURPACKAGENAME.PROJECTNAME;
+import com.YOURPACKAGENAME.MODNAME;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraftforge.event.RegistryEvent;
