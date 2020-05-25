@@ -2,6 +2,6 @@
 //Location: src/main/resources/assets.modid/blockstates
 {
     "variants": {
-        "": { "model": "dinomodv0:block/example_block" }
+        "": { "model": "modid:block/blockName" }            //Replace "modid" and "blockName"
     }
 }
