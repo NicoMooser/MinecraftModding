@@ -4,10 +4,26 @@ TODO:
   Rename dot_graddle to .graddle
   Rename dot_settings to .settings
   Import to eclipse
+  Rename your project
   Edit mods.toml
   
 IMPORTING TO ECLIPSE:
   Import -> General -> Existing Projects into Workspace
+  
+RENAMING PROJECT
+  Under src/main/java, right click "com.yourname.modid" and choose refactor
+  Or left click and alt + shift + r
+  Replace yourname with your name or with reverse website and modid (e.g. com.github.nicomooser.dinorun)
+  Create the following packages under com.yourname.nodid:
+    entities
+    events
+    init
+    objects
+    world
+  Create the following packages under objects:
+    blocks
+    items
+  See (./example_screenshot.png)
   
 Editing mods.toml:
   Change the modid in:
