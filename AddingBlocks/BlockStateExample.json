@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": { "model": "dinomodv0:block/example_block" }
+    }
+}
