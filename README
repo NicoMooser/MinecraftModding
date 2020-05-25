@@ -15,7 +15,7 @@ Editing mods.toml:
   Hardcode version in:
     version="${file.jarVersion}"
   Set Mod Name in:
-      displayName="Mod Name"
+      displayName="Display Name"
   Set Home Page in:
     displayURL="http://example.com/"
   Change credits in:
