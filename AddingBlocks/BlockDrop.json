@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,                         //Number of Blocks dropped
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "modid:blockName"           //Replace modid and blockName
+        }
+      ]
+    }
+  ]
+}
