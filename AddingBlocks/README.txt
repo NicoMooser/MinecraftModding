@@ -21,3 +21,9 @@ Step 4 (Import Texture)
 
 Step 5 (Edit lang)
   Add "block.modid.blockName" : "In Game Block Name" (e.g. "block.testmod.example_block" : "Example Block")
+
+Step 6:
+  DO RESEARCH ON BLOCK DROPS
+  For basic blocks i.e. mine and drop x blocks
+    under src/main/resources/data.modid.loot_tables:blocks add script:
+      ./BlockDrop.json
