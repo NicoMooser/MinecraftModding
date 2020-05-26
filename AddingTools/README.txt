@@ -13,5 +13,14 @@ In ItemInit.java
     Wood
   *Custom Tier:
     See ./CustomTier
-    Wood efficiency (2.0), attackDamage (0.0), enchantability(15), repair material
-    Diamond efficiency (10.0), attackDamage (0.0)
+    For Reference:
+      Wood efficiency (2.0), attackDamage (0.0), enchantability(15)
+      Diamond efficiency (10.0), attackDamage (10.0)
+
+e.g. new SwordItem(ModItemTier.EXAMPLE, 7, 15.0f, new Item.Properties().group(ItemGroup.COMBAT)).setRegistryName("example_sword")
+
+Edit lang
+  "item.modid.toolName": "In Game Name"
+  
+Create toolName.json
+  (See ./example_sword.json)
