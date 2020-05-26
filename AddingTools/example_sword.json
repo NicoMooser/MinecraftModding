@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",    //Note "HANDHELD"
+	"textures": {
+		"layer0": "modid:items/example_sword"   //Replace "modid"
+	}
+}
