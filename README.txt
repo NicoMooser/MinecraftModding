@@ -5,9 +5,12 @@ TODO:
   Rename your project and mod
   Edit ModName.java
   Edit mods.toml
+  Edit src/main/resources
+  
   
 IMPORTING TO ECLIPSE:
   Import -> General -> Existing Projects into Workspace
+  
   
 RENAMING PROJECT & MOD
   Under src/main/java, right click "com.yourname.modid" and choose refactor
@@ -28,9 +31,11 @@ RENAMING PROJECT & MOD
   Or left click and alt + shift + r
   Rename using CamelCase (e.g. DinoMod)
 
+
 EDITING ModName.java
   Open ModName.java
   Find all "//Replace:" comments
+
 
 EDITING mods.toml:
   Change the modid in:
@@ -49,3 +54,8 @@ EDITING mods.toml:
   Optional:
   Set logo in:
     logoFile="examplemod.png" #optional
+    
+    
+EDITING src/main/resources
+  Replace "modid" with your modid in assets.modid (right click + refactor + rename or left click + r)
+  Replace "modid" with your modid in data.modid.loot_tables:block
